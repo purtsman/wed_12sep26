@@ -9,7 +9,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -32,7 +32,7 @@
 
       <div class="hero__monogram">А & А</div>
 
-      <h1>Александр & Анна</h1>
+      <h1>Александр<br>& Анна</h1>
       <p class="hero__place">Санкт-Петербург · начало в 18:20</p>
 
       <a class="scroll-down" href="#letter" aria-label="Листать ниже">
@@ -43,68 +43,71 @@
   </header>
 
   <main>
+
+    <!-- 01 ПИСЬМО -->
     <section class="section letter" id="letter">
       <div class="container centered">
-        <div class="section-number">
+        <div class="section-number fade-up">
           <span>01</span>
           <p>Письмо</p>
         </div>
 
-        <p class="small-title">Дорогие и любимые</p>
+        <p class="small-title fade-up">Дорогие и любимые</p>
 
-        <p class="intro-text">
+        <p class="intro-text fade-up">
           Мы очень хотим, чтобы наш свадебный день был наполнен светом,
           красивыми деталями и людьми, без которых его невозможно представить
           по-настоящему.
         </p>
 
-        <h2 class="big-italic">
+        <h2 class="big-italic fade-up">
           Будем счастливы разделить<br>
           этот вечер вместе с вами.
         </h2>
 
-        <p class="intro-text">
+        <p class="intro-text fade-up">
           Приходите поддержать нас, обняться, улыбнуться и стать частью момента,
           с которого начнётся новая глава нашей семьи.
         </p>
       </div>
     </section>
 
+    <!-- 02 ДЕТАЛИ -->
     <section class="section details" id="details">
       <div class="container">
-        <div class="section-number left">
+        <div class="section-number left fade-up">
           <span>02</span>
           <p>Детали</p>
         </div>
 
         <div class="details-grid">
           <div class="details-list">
-            <div class="detail-item">
+            <div class="detail-item fade-up">
               <p class="label">Дата</p>
               <h3>12 сентября 2026</h3>
               <p>Суббота</p>
             </div>
 
-            <div class="detail-item">
+            <div class="detail-item fade-up">
               <p class="label">Церемония</p>
               <h3>Дворец бракосочетания № 2</h3>
               <p>Санкт-Петербург, Фурштатская улица, 52</p>
             </div>
 
-            <div class="detail-item">
+            <div class="detail-item fade-up">
               <p class="label">Сбор гостей</p>
               <h3>18:00</h3>
               <p>Просим приходить немного заранее.</p>
             </div>
 
-            <div class="detail-item">
+            <div class="detail-item fade-up">
               <p class="label">Начало церемонии</p>
               <h3>18:20</h3>
               <p>Главные слова вечера.</p>
             </div>
           </div>
 
-          <div class="details-note">
+          <div class="details-note fade-up">
             <p class="script-note">
               Нам хочется, чтобы этот день ощущался лёгким, красивым и очень душевным.
             </p>
@@ -120,7 +123,7 @@
         </div>
 
         <div class="map-section">
-          <div class="map-card">
+          <div class="map-card fade-up">
             <div class="map-card__top">
               <p class="label">Карта</p>
               <a href="https://yandex.ru/maps/?text=Дворец%20бракосочетания%20№%202%20Санкт-Петербург%20Фурштатская%2052" target="_blank" rel="noopener">
@@ -129,11 +132,12 @@
             </div>
             <iframe
               src="https://yandex.ru/map-widget/v1/?text=Дворец%20бракосочетания%20№%202%20Санкт-Петербург%20Фурштатская%2052&z=15"
-              loading="lazy">
+              loading="lazy"
+              title="ЗАГС на карте">
             </iframe>
           </div>
 
-          <div class="map-card">
+          <div class="map-card fade-up">
             <div class="map-card__top">
               <p class="label">Фуршет</p>
               <a href="https://yandex.ru/maps/?text=Отель%20Амбассадор%20Санкт-Петербург%20Римского-Корсакова%205-7" target="_blank" rel="noopener">
@@ -142,21 +146,23 @@
             </div>
             <iframe
               src="https://yandex.ru/map-widget/v1/?text=Отель%20Амбассадор%20Санкт-Петербург%20Римского-Корсакова%205-7&z=15"
-              loading="lazy">
+              loading="lazy"
+              title="Отель Амбассадор на карте">
             </iframe>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- 03 ОБРАТНЫЙ ОТСЧЁТ -->
     <section class="section countdown-section">
       <div class="container centered">
-        <div class="section-number">
+        <div class="section-number fade-up">
           <span>03</span>
           <p>Обратный отсчёт</p>
         </div>
 
-        <div class="countdown" aria-label="Обратный отсчёт до свадьбы">
+        <div class="countdown fade-up" aria-label="Обратный отсчёт до свадьбы">
           <div>
             <strong id="days">—</strong>
             <span>дней</span>
@@ -169,62 +175,63 @@
           <i>/</i>
           <div>
             <strong id="minutes">—</strong>
-            <span>минуты</span>
+            <span>минут</span>
           </div>
           <i>/</i>
           <div>
             <strong id="seconds">—</strong>
-            <span>секунды</span>
+            <span>секунд</span>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- 04 ПРОГРАММА -->
     <section class="section program" id="program">
       <div class="container">
-        <div class="section-number left">
+        <div class="section-number left fade-up">
           <span>04</span>
           <p>Программа</p>
         </div>
 
         <div class="timeline">
-          <article class="timeline-item left-side">
+          <article class="timeline-item left-side fade-up">
             <time>18:00</time>
             <h3>Сбор гостей</h3>
             <p>Встречаемся во Дворце бракосочетания № 2.</p>
           </article>
 
-          <article class="timeline-item right-side">
+          <article class="timeline-item right-side fade-up">
             <time>18:20</time>
             <h3>Церемония</h3>
             <p>Главные слова и самый трогательный момент дня.</p>
           </article>
 
-          <article class="timeline-item left-side">
+          <article class="timeline-item left-side fade-up">
             <time>18:40</time>
             <h3>Фотосессия</h3>
             <p>Несколько общих кадров и немного времени для свадебных фотографий.</p>
           </article>
 
-          <article class="timeline-item right-side">
+          <article class="timeline-item right-side fade-up">
             <time>19:20</time>
             <h3>Выезд на фуршет <sup>*</sup></h3>
             <p>Трансфер от ЗАГСа до гостиницы предоставляется — закажем такси.</p>
           </article>
 
-          <article class="timeline-item left-side">
+          <article class="timeline-item left-side fade-up">
             <time>19:40</time>
             <h3>Начало фуршета</h3>
             <p>Приветственный коктейль, лёгкий ужин и время для общения.</p>
           </article>
 
-          <article class="timeline-item right-side">
+          <article class="timeline-item right-side fade-up">
             <time>22:00</time>
             <h3>Завершение фуршета</h3>
             <p>Официальная часть вечера подходит к концу.</p>
           </article>
 
-          <article class="timeline-item left-side">
+          <article class="timeline-item left-side fade-up">
             <time>23:00</time>
             <h3>Заведение Х</h3>
             <p>Если захочется продолжить вечер, встречаемся в заведении Х. Локацию сообщим дополнительно.</p>
@@ -233,21 +240,22 @@
       </div>
     </section>
 
+    <!-- 05 ВТОРОЙ ДЕНЬ -->
     <section class="section second-day">
       <div class="container centered">
-        <div class="section-number">
+        <div class="section-number fade-up">
           <span>05</span>
           <p>Второй день</p>
         </div>
 
-        <h2 class="big-italic">13 сентября — встреча в лофте</h2>
+        <h2 class="big-italic fade-up">13 сентября — встреча в лофте</h2>
 
-        <p class="intro-text">
+        <p class="intro-text fade-up">
           На следующий день мы продолжим праздник в более свободной и уютной атмосфере.
           Это будет спокойная встреча для общения, воспоминаний и продолжения свадебного настроения.
         </p>
 
-        <div class="second-day-time">
+        <div class="second-day-time fade-up">
           <div>
             <span>15:00</span>
             <p>Начало встречи</p>
@@ -258,59 +266,62 @@
           </div>
         </div>
 
-        <p class="muted">Лофт — локация уточняется. Адрес и детали сообщим дополнительно.</p>
+        <p class="muted fade-up">Лофт — локация уточняется. Адрес и детали сообщим дополнительно.</p>
       </div>
     </section>
 
+    <!-- 06 ПОЖЕЛАНИЯ -->
     <section class="section wishes">
       <div class="container centered">
-        <div class="section-number">
+        <div class="section-number fade-up">
           <span>06</span>
           <p>Пожелания</p>
         </div>
 
-        <h2 class="big-italic">
+        <h2 class="big-italic fade-up">
           Ваше присутствие уже<br>
           является для нас большим подарком.
         </h2>
 
-        <p class="intro-text">
+        <p class="intro-text fade-up">
           Если вы захотите порадовать нас чем-то ещё, мы будем благодарны за вклад
           в наш семейный бюджет — он поможет нам начать новую главу красиво и с теплом.
         </p>
       </div>
     </section>
 
+    <!-- 07 ДРЕСС-КОД -->
     <section class="section dress">
       <div class="container centered">
-        <div class="section-number">
+        <div class="section-number fade-up">
           <span>07</span>
           <p>Дресс-код</p>
         </div>
 
-        <h2 class="big-italic">Торжественно и комфортно</h2>
+        <h2 class="big-italic fade-up">Торжественно и комфортно</h2>
 
-        <p class="intro-text">
+        <p class="intro-text fade-up">
           Мы никак не ограничиваем вас по цвету. Нам важно, чтобы вы чувствовали себя
           красиво и свободно.
         </p>
 
-        <p class="intro-text">
+        <p class="intro-text fade-up">
           Будем рады, если вы выберете торжественный smart casual — образ, который
           подойдёт для тёплого свадебного вечера, северного света и атмосферы Петербурга.
         </p>
       </div>
     </section>
 
+    <!-- 08 RSVP -->
     <section class="section rsvp" id="rsvp">
       <div class="container">
-        <div class="section-number left">
+        <div class="section-number left fade-up">
           <span>08</span>
           <p>RSVP</p>
         </div>
 
         <div class="rsvp-layout">
-          <div class="rsvp-copy">
+          <div class="rsvp-copy fade-up">
             <h2>Подтвердите своё участие</h2>
             <p class="deadline">Пожалуйста, заполните форму до 1 августа</p>
             <p>
@@ -321,7 +332,7 @@
             <p class="muted">Будем благодарны за быстрый ответ.</p>
           </div>
 
-          <form class="rsvp-form" id="rsvpForm">
+          <form class="rsvp-form fade-up" id="rsvpForm" novalidate>
             <input type="text" name="website" class="hidden-field" tabindex="-1" autocomplete="off">
 
             <div class="form-row">
@@ -365,32 +376,13 @@
               <p class="cocktail-note">
                 На фуршете будет приветственный коктейль. Подскажите, какие напитки вам ближе.
               </p>
-
               <div class="checkbox-grid">
-                <label class="check-choice">
-                  <input type="checkbox" name="drinks" value="Пиво">
-                  <span>Пиво</span>
-                </label>
-                <label class="check-choice">
-                  <input type="checkbox" name="drinks" value="Вино белое полусухое">
-                  <span>Вино белое полусухое</span>
-                </label>
-                <label class="check-choice">
-                  <input type="checkbox" name="drinks" value="Вино красное полусухое">
-                  <span>Вино красное полусухое</span>
-                </label>
-                <label class="check-choice">
-                  <input type="checkbox" name="drinks" value="Игристое">
-                  <span>Игристое</span>
-                </label>
-                <label class="check-choice">
-                  <input type="checkbox" name="drinks" value="Водка">
-                  <span>Водка</span>
-                </label>
-                <label class="check-choice">
-                  <input type="checkbox" name="drinks" value="Виски">
-                  <span>Виски</span>
-                </label>
+                <label class="check-choice"><input type="checkbox" name="drinks" value="Пиво"><span>Пиво</span></label>
+                <label class="check-choice"><input type="checkbox" name="drinks" value="Вино белое полусухое"><span>Вино белое полусухое</span></label>
+                <label class="check-choice"><input type="checkbox" name="drinks" value="Вино красное полусухое"><span>Вино красное полусухое</span></label>
+                <label class="check-choice"><input type="checkbox" name="drinks" value="Игристое"><span>Игристое</span></label>
+                <label class="check-choice"><input type="checkbox" name="drinks" value="Водка"><span>Водка</span></label>
+                <label class="check-choice"><input type="checkbox" name="drinks" value="Виски"><span>Виски</span></label>
               </div>
             </div>
 
@@ -415,7 +407,7 @@
             </div>
 
             <div class="form-row">
-              <label for="questions">Если у вас остались вопросы, задайте их здесь</label>
+              <label for="questions">Остались вопросы?</label>
               <textarea id="questions" name="questions" rows="3" placeholder="Напишите вопрос — мы ответим лично"></textarea>
             </div>
 
@@ -431,15 +423,17 @@
       </div>
     </section>
 
+    <!-- ФИНАЛ -->
     <section class="section final">
       <div class="final-line"></div>
       <div class="container centered">
-        <p class="small-title">До встречи</p>
-        <h2 class="big-italic">Александр & Анна</h2>
-        <p class="intro-text">12 сентября 2026 · Санкт-Петербург</p>
-        <a class="back-to-top" href="#top">Наверх</a>
+        <p class="small-title fade-up">До встречи</p>
+        <h2 class="big-italic fade-up">Александр & Анна</h2>
+        <p class="intro-text fade-up">12 сентября 2026 · Санкт-Петербург</p>
+        <a class="back-to-top fade-up" href="#top">↑ Наверх</a>
       </div>
     </section>
+
   </main>
 
   <script src="script.js"></script>
